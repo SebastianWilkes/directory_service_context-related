@@ -1,0 +1,651 @@
+{
+	"info": {
+		"_postman_id": "c749f2d5-ab90-42a1-97a7-352683ef9003",
+		"name": "Directory_Service_API_Testing",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "add entry 1",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"entry\": \"hello world!\",\n  \"name\" : \"FRITZ!Box7430X\"\n}"
+				},
+				"url": {
+					"raw": "http://46.101.109.103:8080/types/:type/ids/:id/layers/:layer/owners/:owner/entries/:entryId",
+					"protocol": "http",
+					"host": [
+						"46",
+						"101",
+						"109",
+						"103"
+					],
+					"port": "8080",
+					"path": [
+						"types",
+						":type",
+						"ids",
+						":id",
+						"layers",
+						":layer",
+						"owners",
+						":owner",
+						"entries",
+						":entryId"
+					],
+					"variable": [
+						{
+							"key": "type",
+							"value": "WLAN"
+						},
+						{
+							"key": "id",
+							"value": "cc:ce:1e:79:2d:68"
+						},
+						{
+							"key": "layer",
+							"value": "tests"
+						},
+						{
+							"key": "owner",
+							"value": "a99b8343352080971e0f8c17e100f599"
+						},
+						{
+							"key": "entryId",
+							"value": "efcaafa154905c6b79104c825a0676b9"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add entry 2",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"entry\": \"hello world!\",\n  \"name\" : \"FRITZ!Box7430X\"\n}"
+				},
+				"url": {
+					"raw": "http://46.101.109.103:8080/types/:type/ids/:id/layers/:layer/owners/:owner/entries/:entryId",
+					"protocol": "http",
+					"host": [
+						"46",
+						"101",
+						"109",
+						"103"
+					],
+					"port": "8080",
+					"path": [
+						"types",
+						":type",
+						"ids",
+						":id",
+						"layers",
+						":layer",
+						"owners",
+						":owner",
+						"entries",
+						":entryId"
+					],
+					"variable": [
+						{
+							"key": "type",
+							"value": "WLAN"
+						},
+						{
+							"key": "id",
+							"value": "cc:ce:1e:79:2d:68"
+						},
+						{
+							"key": "layer",
+							"value": "tests"
+						},
+						{
+							"key": "owner",
+							"value": "a99b8343352080971e0f8c17e100f599"
+						},
+						{
+							"key": "entryId",
+							"value": "2fcaafa154905c6b79104c825a0676b9"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add entry 3",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"entry\": \"hello world!\",\n  \"name\" : \"FRITZ!Box7430X\"\n}"
+				},
+				"url": {
+					"raw": "http://46.101.109.103:8080/types/:type/ids/:id/layers/:layer/owners/:owner/entries/:entryId",
+					"protocol": "http",
+					"host": [
+						"46",
+						"101",
+						"109",
+						"103"
+					],
+					"port": "8080",
+					"path": [
+						"types",
+						":type",
+						"ids",
+						":id",
+						"layers",
+						":layer",
+						"owners",
+						":owner",
+						"entries",
+						":entryId"
+					],
+					"variable": [
+						{
+							"key": "type",
+							"value": "WLAN"
+						},
+						{
+							"key": "id",
+							"value": "cc:ce:1e:79:2d:68"
+						},
+						{
+							"key": "layer",
+							"value": "tests"
+						},
+						{
+							"key": "owner",
+							"value": "a99b8343352080971e0f8c17e100f599"
+						},
+						{
+							"key": "entryId",
+							"value": "2fcaafa154905c6b79104c825a0676b9"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "remove entry 1",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://46.101.109.103:8080/types/:type/ids/:id/layers/:layer/owners/:owner/entries/:entryId",
+					"protocol": "http",
+					"host": [
+						"46",
+						"101",
+						"109",
+						"103"
+					],
+					"port": "8080",
+					"path": [
+						"types",
+						":type",
+						"ids",
+						":id",
+						"layers",
+						":layer",
+						"owners",
+						":owner",
+						"entries",
+						":entryId"
+					],
+					"variable": [
+						{
+							"key": "type",
+							"value": "WLAN"
+						},
+						{
+							"key": "id",
+							"value": "cc:ce:1e:79:2d:68"
+						},
+						{
+							"key": "layer",
+							"value": "tests"
+						},
+						{
+							"key": "owner",
+							"value": "a99b8343352080971e0f8c17e100f599"
+						},
+						{
+							"key": "entryId",
+							"value": "efcaafa154905c6b79104c825a0676b9"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "remove entry 2",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://46.101.109.103:8080/types/:type/ids/:id/layers/:layer/owners/:owner/entries/:entryId",
+					"protocol": "http",
+					"host": [
+						"46",
+						"101",
+						"109",
+						"103"
+					],
+					"port": "8080",
+					"path": [
+						"types",
+						":type",
+						"ids",
+						":id",
+						"layers",
+						":layer",
+						"owners",
+						":owner",
+						"entries",
+						":entryId"
+					],
+					"variable": [
+						{
+							"key": "type",
+							"value": "WLAN"
+						},
+						{
+							"key": "id",
+							"value": "cc:ce:1e:79:2d:68"
+						},
+						{
+							"key": "layer",
+							"value": "tests"
+						},
+						{
+							"key": "owner",
+							"value": "a99b8343352080971e0f8c17e100f599"
+						},
+						{
+							"key": "entryId",
+							"value": "2fcaafa154905c6b79104c825a0676b9"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "remove entry 3",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://46.101.109.103:8080/types/:type/ids/:id/layers/:layer/owners/:owner/entries/:entryId",
+					"protocol": "http",
+					"host": [
+						"46",
+						"101",
+						"109",
+						"103"
+					],
+					"port": "8080",
+					"path": [
+						"types",
+						":type",
+						"ids",
+						":id",
+						"layers",
+						":layer",
+						"owners",
+						":owner",
+						"entries",
+						":entryId"
+					],
+					"variable": [
+						{
+							"key": "type",
+							"value": "WLAN"
+						},
+						{
+							"key": "id",
+							"value": "cc:ce:1e:79:2d:68"
+						},
+						{
+							"key": "layer",
+							"value": "tests"
+						},
+						{
+							"key": "owner",
+							"value": "b77b8343352080971e0f8c17e100f577"
+						},
+						{
+							"key": "entryId",
+							"value": "3fcaafa154905c6b79104c825a0676b9"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "remove layer",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://46.101.109.103:8080/types/:type/ids/:id/layers/:layer",
+					"protocol": "http",
+					"host": [
+						"46",
+						"101",
+						"109",
+						"103"
+					],
+					"port": "8080",
+					"path": [
+						"types",
+						":type",
+						"ids",
+						":id",
+						"layers",
+						":layer"
+					],
+					"variable": [
+						{
+							"key": "type",
+							"value": "WLAN"
+						},
+						{
+							"key": "id",
+							"value": "cc:ce:1e:79:2d:68"
+						},
+						{
+							"key": "layer",
+							"value": "tests"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get all entries in layer",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"entry\": \"hello world!\",\n  \"name\" : \"FRITZ!Box7430X\"\n}"
+				},
+				"url": {
+					"raw": "http://46.101.109.103:8080/types/:type/ids/:id/layers/:layer",
+					"protocol": "http",
+					"host": [
+						"46",
+						"101",
+						"109",
+						"103"
+					],
+					"port": "8080",
+					"path": [
+						"types",
+						":type",
+						"ids",
+						":id",
+						"layers",
+						":layer"
+					],
+					"variable": [
+						{
+							"key": "type",
+							"value": "WLAN"
+						},
+						{
+							"key": "id",
+							"value": "cc:ce:1e:79:2d:68"
+						},
+						{
+							"key": "layer",
+							"value": "tests"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get all entries from certain owners",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"owners\": [\"a99b8343352080971e0f8c17e100f599\"]\n}\n"
+				},
+				"url": {
+					"raw": "http://46.101.109.103:8080/types/:type/ids/:id/layers/:layer/owners",
+					"protocol": "http",
+					"host": [
+						"46",
+						"101",
+						"109",
+						"103"
+					],
+					"port": "8080",
+					"path": [
+						"types",
+						":type",
+						"ids",
+						":id",
+						"layers",
+						":layer",
+						"owners"
+					],
+					"variable": [
+						{
+							"key": "type",
+							"value": "WLAN"
+						},
+						{
+							"key": "id",
+							"value": "cc:ce:1e:79:2d:68"
+						},
+						{
+							"key": "layer",
+							"value": "tests"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get name of id set by owner in layer",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://46.101.109.103:8080/types/:type/ids/:id/layers/:layer/owners/:owner/name",
+					"protocol": "http",
+					"host": [
+						"46",
+						"101",
+						"109",
+						"103"
+					],
+					"port": "8080",
+					"path": [
+						"types",
+						":type",
+						"ids",
+						":id",
+						"layers",
+						":layer",
+						"owners",
+						":owner",
+						"name"
+					],
+					"variable": [
+						{
+							"key": "type",
+							"value": "WLAN"
+						},
+						{
+							"key": "id",
+							"value": "cc:ce:1e:79:2d:68"
+						},
+						{
+							"key": "layer",
+							"value": "tests"
+						},
+						{
+							"key": "owner",
+							"value": "a99b8343352080971e0f8c17e100f599"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update name of id set by owner in layer",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"entry\": \"hello world!\",\n  \"name\" : \"FRITZ!Box7430X\"\n}"
+				},
+				"url": {
+					"raw": "http://46.101.109.103:8080/types/:type/ids/:id/layers/:layer/owners/:owner/entries/:entryId",
+					"protocol": "http",
+					"host": [
+						"46",
+						"101",
+						"109",
+						"103"
+					],
+					"port": "8080",
+					"path": [
+						"types",
+						":type",
+						"ids",
+						":id",
+						"layers",
+						":layer",
+						"owners",
+						":owner",
+						"entries",
+						":entryId"
+					],
+					"variable": [
+						{
+							"key": "type",
+							"value": "WLAN"
+						},
+						{
+							"key": "id",
+							"value": "cc:ce:1e:79:2d:68"
+						},
+						{
+							"key": "layer",
+							"value": "tests"
+						},
+						{
+							"key": "owner",
+							"value": "a99b8343352080971e0f8c17e100f599"
+						},
+						{
+							"key": "entryId",
+							"value": "efcaafa154905c6b79104c825a0676b9"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

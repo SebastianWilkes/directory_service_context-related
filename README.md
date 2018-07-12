@@ -52,9 +52,9 @@ use SQL-like commands like:
 
 Test via Postman -> https://www.getpostman.com
 
-import collection of API requests: postman/BA_Code_Local.postman_collection.json (for local use)
+import collection of API requests: postman/api-testing_local.postman_collection.json (localhost)
 
-import collection of API requests: postman/BA_Code.postman_collection.json (deployed service)
+import collection of API requests: postman/api-testing.postman_collection.json (deployed service)
 
 ### Questions? ###
 
