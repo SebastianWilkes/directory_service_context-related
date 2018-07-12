@@ -10,38 +10,54 @@ https://nodejs.org/en/download/
 
 **install packages**
 > npm install express 
+
 > npm install body-parser
+
 > npm install assert 
+
 > npm install cassandra-driver
 
 **install cassandra**
 http://cassandra.apache.org
 
 For MacOS:
+
 install brew (https://docs.brew.sh/Installation)
+
 > ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
 > brew update
+
 > brew install cassandra
+
 > brew services start cassandra 
+
 (wait a minute.. then start the shell)
+
 > cqlsh
 
 **start directory service**
 > node app.js
+
 (error? make sure cassandra is running)
 
 ### How to run tests? ###
 
 Test via Cassandra shell (http://cassandra.apache.org/doc/latest/tools/cqlsh.html)
 use SQL-like commands like: 
-SELECT * FROM directory.signalcontext;
-SELECT * FROM directory.signalcontext WHERE layer = 'tests';
+
+> SELECT * FROM directory.signalcontext;
+
+> SELECT * FROM directory.signalcontext WHERE layer = 'tests';
 
 Test via Postman -> https://www.getpostman.com
+
 import collection of API requests: postman/BA_Code_Local.postman_collection.json (for local use)
+
 import collection of API requests: postman/BA_Code.postman_collection.json (deployed service)
 
 ### Questions? ###
 
 sebastian.wilkes@haw-hamburg.de
+
 sebastianwilkes@gmail.com (private)
